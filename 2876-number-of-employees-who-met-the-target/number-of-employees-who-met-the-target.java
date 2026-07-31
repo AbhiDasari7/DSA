@@ -4,7 +4,7 @@ class Solution {
         for(int i=0;i<hours.length;i++)
         {
             if(hours[i]>=target)
-            c++;
+            c+=1;
         }
         return c;
         
