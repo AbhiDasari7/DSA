@@ -1,0 +1,14 @@
+class Solution {
+    public int commonFactors(int a, int b) {
+        int c = a<b?a:b;
+        int d=0;
+        for(int i =1;i<=c;i++)
+        {
+            if(a%i==0&&b%i==0)
+            d++;
+        }
+        return d;
+        
+        
+    }
+}
