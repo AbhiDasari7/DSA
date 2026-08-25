@@ -9,9 +9,7 @@ class Solution {
                 c++;
             }
         }
-        if(c!=0)
-        return s/c;
-        return 0;
+        return c==0?0:s/c;
         
     }
 }
